@@ -1,0 +1,22 @@
+{
+    "name": "pAndyVl/yii2-animate",
+    "description": "Animate.css assets for Yii PHP framework 2.0",
+    "keywords": ["yii", "extension", "animate.css", "assets"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andy",
+
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/animate.css":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pAndyVl\\animatecss\\": ""
+        }
+    }
+}
